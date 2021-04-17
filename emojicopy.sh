@@ -1,0 +1,1 @@
+emoji $1 | tr -d '\n' | pbcopy
