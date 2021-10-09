@@ -20,8 +20,8 @@ Before running, you will need to `sudo pip3 install pandas`.
 Then add these aliases to your `~/.zshrc` or `~/.bashrc`:
 
 ```
-alias emoji='/path/to/emoji.py'
-alias emojicopy='. /path/to/emojicopy.sh'
+alias emoji='python3 /path/to/emoji.py'
+alias emojicopy='. python3 /path/to/emojicopy.sh'
 ```
 
 (Dot trick adapted from https://unix.stackexchange.com/questions/1496/why-doesnt-my-bash-script-recognize-aliases)
