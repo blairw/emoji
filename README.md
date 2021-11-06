@@ -21,7 +21,7 @@ Then add these aliases to your `~/.zshrc` or `~/.bashrc`:
 
 ```
 alias emoji='python3 /path/to/emoji.py'
-alias emojicopy='. python3 /path/to/emojicopy.sh'
+alias emojicopy='. sh /path/to/emojicopy.sh'
 ```
 
 (Dot trick adapted from https://unix.stackexchange.com/questions/1496/why-doesnt-my-bash-script-recognize-aliases)
